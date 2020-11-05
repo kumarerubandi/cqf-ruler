@@ -340,6 +340,7 @@ public class ClaimProvider extends ClaimResourceProvider {
 	public Resource claimSubmit(RequestDetails details,
 			@OperationParam(name = "claim", min = 1, max = 1, type = Bundle.class) Bundle bundle)
 			throws RuntimeException {
+		System.out.println("\n\n SUBMIT \n\n");
 		Patient patient = null;
 		Patient serverPatient = null;
 		Claim claim = null;
