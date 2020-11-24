@@ -1,4 +1,4 @@
-# cqf-ruler (for testing)
+# cqf-ruler (for tests)
 
 The CQF Ruler is an implementation of FHIR's [Clinical Reasoning Module](
 http://hl7.org/fhir/clinicalreasoning-module.html) and serves as a
